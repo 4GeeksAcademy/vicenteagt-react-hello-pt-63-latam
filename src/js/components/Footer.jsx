@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
     return (
-        <div id="contact">
-        <div className="contain-fluid d-flex bg-black mt-3 justify-content-center">
+        <div id="contact" className="p-0">
+        <div className="contain-fluid d-flex bg-black mt-3 justify-content-center p-0">
             <div className="row mt-2">
                 <div className="col-5">
                     <p className="text-white">Copyright © ESLO 2025</p>

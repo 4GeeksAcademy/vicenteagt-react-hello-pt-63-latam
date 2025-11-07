@@ -3,7 +3,7 @@ import React from "react";
 const Jumbotron = () => {
     return (
         <div id="aboutUs">
-          <div className="container-fluid">
+          <div className="container-fluid p-0">
             <div className="row">
               <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p-0">
         <div className="bg-light p-5 bgImage">

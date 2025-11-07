@@ -10,7 +10,7 @@ const Card = (props) => {
   <div className="card-body card bg-black" style= {{width: "19em", height: "24rem"}}>
     <h5 className="card-title text-white fw-bolder">{props.packagesNamesProps}</h5>
     <p className="card-text text-white">{props.packagesDescriptionProps}</p>
-    <a href="#" className="btn btn-warning fw-bolder">Más Información</a>
+    <a href="#" className="btn btn-warning fw-bolder btn-sm btn-sm-sm btn-md-sm btn-lg-lg">Más Información</a>
     </div>
     </div>   
 </div>

@@ -12,12 +12,22 @@ const Home = () => {
 	return (
 		<div>
 			<Navbar/>
+			
 		<Jumbotron/>
-		<div className="container-fluid d-flex flex-row p-0">
-			<div className="row m-auto mt-2">
+		
+		
+		<div className="contain-fluid d-flex justify-content-center m-auto">
+			  <div className="row d-flex flex-row">
+				<div className="col-12  d-flex flex-column flex-sm-column flex-md-column flex-lg-column flex-xl-row">
 			<CardFinal/>
 			</div>
-		</div>
+</div>
+</div>
+			
+		 
+		
+    
+    
 		<Footer/>
 		</div>
 

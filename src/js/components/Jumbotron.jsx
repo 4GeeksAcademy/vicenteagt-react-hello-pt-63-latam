@@ -3,11 +3,11 @@ import React from "react";
 const Jumbotron = () => {
   return (
     <div id="#">
-      <div className="row pt-4 pt-sm-4 pt-md-4 pt-lg-4 pt-xl-0">
-        <div className="col-1 col-sm-11 col-md-11 col-lg-11 col-xl-11 
+      <div className="row pt-4 pt-sm-4 pt-md-4 pt-lg-4 pt-xl-0 pt-xxl-0 me-xxl-4">
+        <div className="col-1 col-sm-11 col-md-11 col-lg-11 col-xl-11 col-xxl-11
               marginJumbotron 
-              p-4 p-sm-4 p-md-4 p-lg-4 p-xl-2"
-          style={{ width: "92.6%", height: "100%" }}>
+              p-4 p-sm-4 p-md-4 p-lg-4 p-xl-2 p-xxl-0" 
+          style={{ width: "92.4%", height: "100%" }}>
           <div className="bg-light bgImage">
             <div className="container-fluid py-5">
               <h1 className="display-5 fw-bold text-warning">¿QUIÉNES SOMOS?</h1><br />

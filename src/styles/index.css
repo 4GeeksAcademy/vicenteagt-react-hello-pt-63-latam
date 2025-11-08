@@ -32,3 +32,19 @@ body {
     margin-left: 3.4%;
 
 }
+
+.forcedMargenAuto{
+    margin-left: 0.4%;
+}
+
+@media (min-width: 1400px) {
+  .forcedMargenAuto {
+    margin-left: 1.6%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .forcedMargenAuto {
+    margin-left: 0.8%;
+  }
+}

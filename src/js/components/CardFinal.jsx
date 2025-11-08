@@ -27,8 +27,8 @@ const CardFinal = () => {
     return (
         cardInformation.map((item, index, array) => {
             return (
-                <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-3 
-                m-auto m-sm-auto m-md-auto ms-xl-3 
+                <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-3 col-xxl-3
+                m-auto m-sm-auto m-md-auto ms-xl-3 ms-xxl-3
                 text-center" >
                     <Card key={index}
                         urlImageCardProps={item.urlImageCard}

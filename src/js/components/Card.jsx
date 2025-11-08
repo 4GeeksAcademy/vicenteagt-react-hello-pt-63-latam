@@ -5,7 +5,7 @@ const Card = (props) => {
 
         <div id="packages">
             <div className="">
-                <div className="card bg-black mt-4 ms-3 col-12 col-sm-12 col-md-12 col-lg-11 col-xl-11" style={{ width: "100%", height: "100%" }}>
+                <div className="card bg-black mt-4 ms-3 col-12 col-sm-12 col-md-12 col-lg-11 col-xl-11 col-xxl-11" style={{ width: "100%", height: "100%" }}>
                     <img src={props.urlImageCardProps} style={{ width: "100%", height: "100%" }} className="card-img-top" alt="imagen" />
                     <div className="card-body card bg-black" style={{ width: "100%", height: "100%" }}>
                         <h5 className="card-title text-white fw-bolder">{props.packagesNamesProps}</h5>

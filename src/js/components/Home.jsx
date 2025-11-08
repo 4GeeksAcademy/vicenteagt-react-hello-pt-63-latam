@@ -12,11 +12,13 @@ const Home = () => {
 	return (
 		<div className="contain-fluid m-auto">
 			<Navbar />
+			<div className="forcedMargenAuto">
 			<Jumbotron />
-			<div className="row d-flex flex-row justify-content-center m-auto">
+			<div className="row d-flex flex-row justify-content-center m-auto p-xxl-2">
 				<div className="col-11  d-flex flex-column flex-sm-column flex-md-column flex-lg-column flex-xl-row marginCardsRow">
 					<CardFinal />
 				</div>
+			</div>
 			</div>
 			<div className="p-0">
 				<Footer />

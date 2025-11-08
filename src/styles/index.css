@@ -1,33 +1,33 @@
-body{
+body {
     background-color: rgb(232, 167, 3);
 }
 
-.bgImage{
+.bgImage {
     background-image: url(https://integratec.com/blog/imagenes/trabajo-equipo-productividad.webp);
     background-size: cover;
 }
 
-.bgInfo{
+.bgInfo {
     background-color: rgba(0, 0, 0, 0.813);
 }
 
-.marginCopyright{
+.marginCopyright {
     margin-left: 38rem;
 }
 
-.anchorsNavbar:hover{
-background-color: rgba(245, 189, 20, 0.83);
+.anchorsNavbar:hover {
+    background-color: rgba(245, 189, 20, 0.83);
 }
 
-.anchorsFooter:hover{
+.anchorsFooter:hover {
     background-color: rgba(240, 248, 255, 0.269);
 }
 
-.marginCardsRow{
+.marginCardsRow {
     margin-right: auto;
 }
 
-.marginJumbotron{
+.marginJumbotron {
     margin-top: 8%;
     margin-left: 3.4%;
 

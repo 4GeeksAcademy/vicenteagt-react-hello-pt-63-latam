@@ -11,35 +11,17 @@ import Footer from "../components/Footer.jsx";
 const Home = () => {
 	return (
 		<div className="contain-fluid m-auto">
-	
-			<Navbar/>
-		
-			 
-		<Jumbotron/>
-		
-		
-
-			  <div className="row d-flex flex-row justify-content-center m-auto">
+			<Navbar />
+			<Jumbotron />
+			<div className="row d-flex flex-row justify-content-center m-auto">
 				<div className="col-11  d-flex flex-column flex-sm-column flex-md-column flex-lg-column flex-xl-row marginCardsRow">
-			<CardFinal/>
+					<CardFinal />
+				</div>
 			</div>
-
-</div>
-			
-		 
-		
-    
-    
-		<Footer/>
+			<div className="p-0">
+				<Footer />
+			</div>
 		</div>
-
-		
-		
-		
-		
-	
-
-	
 	);
 };
 

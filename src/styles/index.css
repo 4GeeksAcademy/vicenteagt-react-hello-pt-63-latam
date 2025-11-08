@@ -22,3 +22,13 @@ background-color: rgba(245, 189, 20, 0.83);
 .anchorsFooter:hover{
     background-color: rgba(240, 248, 255, 0.269);
 }
+
+.marginCardsRow{
+    margin-right: auto;
+}
+
+.marginJumbotron{
+    margin-top: 8%;
+    margin-left: 3.4%;
+
+}

@@ -14,7 +14,7 @@ const Navbar = () => {
                             <a className="nav-link active anchorsNavbar text-white" aria-current="page" href="#">Inicio</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-white anchorsNavbar" href="#aboutUs">Sobre Nosotros</a>
+                            <a className="nav-link text-white anchorsNavbar" href="#">Sobre Nosotros</a>
                         </li>
                          <li className="nav-item">
                             <a className="nav-link text-white anchorsNavbar" href="#packages">Servicios</a>
